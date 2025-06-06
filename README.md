@@ -7,16 +7,16 @@ This repository contains supporting code and data for my thesis project on **net
 ## 📁 Repository Structure
 
 - `functions.ipynb`:  
-  This file contains **all the core functions** used throughout the project. The functions are organized into three categories:
+  This file contains **all the core functions** used throughout the project. The functions are organised into three categories:
   
   - **Used Functions**:  
-    These are the main functions used in the experimental pipeline (e.g., graph generation, posterior computation, MCMC sampling, etc.).
+    These are the main functions used in the experimental pipeline (e.g., noise addition, MCMC sampling, etc.).
 
   - **Plotting Functions**:  
-    Utility functions used to generate all figures included in the thesis, including statistical visualizations, phase transition diagrams, and performance comparisons.
+    Utility functions used to generate all figures included in the thesis, including statistical visualisations, phase transition diagrams, and performance comparisons.
 
   - **Auxiliary Functions**:  
-    Helper utilities that assist the main procedures (e.g., renaming, reindexing, formatting, noise addition).
+    Helper utilities that assist the main procedures (e.g., energy distribution, plotting a set of graphs, etc.).
 
 - `executions.ipynb`:  
   This script/notebook **calls the main and plotting functions** from `functions` to generate the figures included in the thesis. Each code block typically corresponds to a specific figure or experimental result.
