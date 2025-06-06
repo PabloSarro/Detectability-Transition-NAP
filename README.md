@@ -32,24 +32,29 @@ This repository contains supporting code and data for my thesis project on **net
 
 To reproduce the plots and results from the thesis:
 
-1. Ensure all required packages are installed (see [Dependencies](#dependencies)).
-2. Open and run the code in `executions.ipynb` or execute `executions.py`.
+1. Ensure all required packages are installed (first cell on each `.ipynb` file).
+2. Open and run the code in `executions.ipynb`.
 3. Make sure that the corresponding `.csv` result files are present in the same directory.
 
-You can also modify the functions in `functions.ipynb` to experiment with new parameter values, different posterior distributions, or alternative sampling strategies (e.g., with or without parallel tempering).
+Additionally, you can also modify the functions in `functions.ipynb` to experiment with new parameter values, different posterior distributions, or alternative sampling strategies (e.g., with or without parallel tempering).
 
 ---
 
 ## 🧩 Dependencies
 
-This project was built using Python 3. The main required libraries are:
+This project was built using **Python 3.10+** and uses the following libraries:
 
 - `numpy`
 - `pandas`
+- `seaborn`
 - `matplotlib`
 - `networkx`
 - `scipy`
-- `csv`
-- `os`
-
-All libraries are standard scientific Python packages.
+- `numba`
+- `csv` (standard)
+- `os` (standard)
+- `copy` (standard)
+- `math` (standard)
+- `time` (standard)
+- `random` (standard)
+- `import_ipynb` (for importing notebooks as modules in Jupyter)
