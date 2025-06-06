@@ -6,7 +6,7 @@ This repository contains supporting code and data for my thesis project on **net
 
 ## 📁 Repository Structure
 
-- `functions.ipynb` / `functions.py`:  
+- `functions.ipynb`:  
   This file contains **all the core functions** used throughout the project. The functions are organized into three categories:
   
   - **Used Functions**:  
@@ -18,7 +18,7 @@ This repository contains supporting code and data for my thesis project on **net
   - **Auxiliary Functions**:  
     Helper utilities that assist the main procedures (e.g., renaming, reindexing, formatting, noise addition).
 
-- `executions.ipynb` / `executions.py`:  
+- `executions.ipynb`:  
   This script/notebook **calls the main and plotting functions** from `functions` to generate the figures included in the thesis. Each code block typically corresponds to a specific figure or experimental result.
 
 - `results_*.csv`:  
