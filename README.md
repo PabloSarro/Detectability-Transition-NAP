@@ -22,7 +22,7 @@ This repository contains supporting code and data for my thesis project on **net
   This script/notebook **calls the main and plotting functions** from `functions` to generate the figures included in the thesis. Each code block typically corresponds to a specific figure or experimental result.
 
 - `results_*.csv`:  
-  These files contain the **raw results** from various experimental runs. The naming convention follows the format:  results_<noise_level>_<run>.csv
+  These files contain the **raw results** from various experimental runs. The naming convention follows the format:  results_<noise_level>_<run_number>.csv
 
   For example, `results_0.25_1.csv` contains the first run with noise level `f = 0.25`.
 
